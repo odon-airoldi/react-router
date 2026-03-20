@@ -1,10 +1,15 @@
+import AppHeader from '../components/AppHeader'
+import AppFooter from '../components/AppFooter'
+
 export default function Products() {
 
     return (
         <>
-            <div>
+            <AppHeader />
+            <main>
                 Products
-            </div>
+            </main>
+            <AppFooter />
         </>
     )
 

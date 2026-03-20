@@ -1,10 +1,15 @@
+import AppHeader from '../components/AppHeader'
+import AppFooter from '../components/AppFooter'
+
 export default function AboutUs() {
 
     return (
         <>
-            <div>
+            <AppHeader />
+            <main>
                 About us
-            </div>
+            </main>
+            <AppFooter />
         </>
     )
 

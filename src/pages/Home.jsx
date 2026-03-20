@@ -1,17 +1,15 @@
+import AppHeader from '../components/AppHeader'
+import AppFooter from '../components/AppFooter'
+
 export default function Home() {
 
     return (
         <>
-            <header>
-                <nav>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Products</li>
-                </nav>
-            </header>
-            <div>
+            <AppHeader />
+            <main>
                 Home
-            </div>
+            </main>
+            <AppFooter />
         </>
     )
 
