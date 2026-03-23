@@ -30,7 +30,7 @@ export default function Products() {
                             products.map(product => (
 
                                 <div className="" key={product.id}>
-                                    <div className="card">
+                                    <div className="card h-100">
                                         <div className="ratio ratio-1x1">
                                             <img src={product.image} className="card-img-top object-fit-contain img-fluid p-3" alt={product.title} />
                                         </div>
